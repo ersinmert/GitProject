@@ -19,6 +19,7 @@ namespace GitProject.Controllers
         [HttpGet]
         public IActionResult GetALl()
         {
+            var degisken = 1;
             return Ok("Home Get all Ok!");
         }
     }
