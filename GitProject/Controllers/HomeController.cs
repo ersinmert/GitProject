@@ -29,5 +29,12 @@ namespace GitProject.Controllers
         {
             return Ok("Home Get all Ok!");
         }
+
+        [HttpPut]
+        public IActionResult Put()
+        {
+            return Ok("Home Get all Ok!");
+        }
+
     }
 }
