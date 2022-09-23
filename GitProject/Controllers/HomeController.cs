@@ -27,7 +27,7 @@ namespace GitProject.Controllers
         [HttpPost]
         public IActionResult Post()
         {
-            return Ok("Home Get all Ok!");
+            return Ok("Home Post all Ok!");
         }
 
         [HttpPut]
