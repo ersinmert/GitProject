@@ -13,6 +13,7 @@ namespace GitProject.Controllers
         [HttpGet]
         public IActionResult Index()
         {
+            var degisken = 1;
             return Ok("Home Ok!");
         }
 
