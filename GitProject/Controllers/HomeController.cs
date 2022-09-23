@@ -15,5 +15,11 @@ namespace GitProject.Controllers
         {
             return Ok("Home Ok!");
         }
+
+        [HttpGet]
+        public IActionResult GetALl()
+        {
+            return Ok("Home Get all Ok!");
+        }
     }
 }

@@ -36,10 +36,16 @@ namespace GitProject.Controllers
             .ToArray();
         }
 
-        [HttpGet]
+        [HttpGet("getAll")]
         public IActionResult getAll()
         {
             return Ok("Ok!");
+        }
+
+        [HttpGet("get")]
+        public IActionResult get()
+        {
+            return Ok("get Ok!");
         }
     }
 }
