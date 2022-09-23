@@ -23,5 +23,11 @@ namespace GitProject.Controllers
             var degisken = 1;
             return Ok("Home Get all Ok!");
         }
+
+        [HttpPost]
+        public IActionResult Post()
+        {
+            return Ok("Home Get all Ok!");
+        }
     }
 }
